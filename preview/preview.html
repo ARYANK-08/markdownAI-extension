@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Preview</title>
+  <link rel="stylesheet" href="preview.css">
+</head>
+<body>
+  <div class="container">
+    <div class="editor-panel">
+      <div class="panel-header">
+        <span class="panel-title">Markdown Editor</span>
+        <button class="copy-btn" id="copy-btn">Copy Markdown</button>
+      </div>
+      <textarea id="markdown-editor" placeholder="Your markdown will appear here..."></textarea>
+    </div>
+    
+    <div class="preview-panel">
+      <div class="panel-header">
+        <span class="panel-title">Preview</span>
+      </div>
+      <div id="markdown-preview"></div>
+    </div>
+  </div>
+
+  <script src="preview.js"></script>
+</body>
+</html>
